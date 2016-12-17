@@ -1,0 +1,591 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	background: url('images/textures/debut.png'), #f59e1d;
+	margin-bottom:30px;
+}
+
+
+/*Google Search Edit*/
+.gsc-control-cse {
+	background-color:transparent!important;
+	border-color:transparent!important;
+}
+.gsc-search-button {
+	background-color:transparent!important;
+}
+.cse input.gsc-input, input.gsc-input {background-image:none !important;}
+
+
+/* Styling of main content area container */
+
+.container-content-area {
+	margin-top:-10px;
+	position:relative;
+	z-index:1;
+	background-color:#FFF;
+	box-shadow: 10px 10px 23px -7px #757575, -10px 10px 23px -7px #757575;
+	background-color:white;
+}
+
+
+.container-content-area { /* IE 8 and below specific */
+	background:
+	url('images/content-border-corner-top-left.png')left top no-repeat,
+	url('images/content-border-corner-bottom-left.png')left bottom no-repeat,
+	url('images/content-border-line.png')left top repeat-y,
+	url('images/content-border-corner-top-right.png')right top no-repeat,
+	url('images/content-border-corner-bottom-right.png')right bottom no-repeat,
+	url('images/content-border-line.png')right top repeat-y\9; /* IE 8 and below */
+}
+
+#navbar-home:hover {
+	margin-top:-5px;
+}
+#navbar-clothing:hover {
+	margin-top:-5px;
+}
+#navbar-teamkit:hover {
+	margin-top:-5px;
+}
+#navbar-about:hover {
+	margin-top:-5px;
+}
+
+
+/* simplecart
+--------------------------------------------------------------------------------*/
+
+
+
+/* simplecart
+--------------------------------------------------------------------------------*/
+
+
+
+/* clothing page
+--------------------------------------------------------------------------------*/
+#content-text-header {
+	margin-left:50px;
+	font-family:Futura;
+	color:#6f6f6f;
+	width:73%;
+}
+
+/* clothing page
+--------------------------------------------------------------------------------*/
+
+
+
+.container-content {
+	margin-top:20px;
+}
+.container-sidebar {
+	max-width:900px;
+}
+
+#sidebar-all {
+	/*position:fixed;
+	right:5.3%;*/
+	margin-top:-20px;
+	margin-right:-5px;
+	padding-top:15px;
+	/*padding-bottom:20%;*/
+	padding-bottom:110%;
+	padding-right:9px;
+	box-shadow: -1px 0px 13px #A3A7AB;
+	
+	border-radius:0px;
+	border-color:#80d4df;
+	border-width:thick;
+	border-left-style:none;
+	border-top-style:none;
+	border-bottom-style:none;
+	
+	float:right; /*Justifies div to the right*/
+}
+#content-sidebar-loop {
+	margin-left:14px;
+	margin-bottom:10px;
+}
+
+/* Social Links - content-header-text images
+--------------------------------------------------------------------------------*/
+#content-social-text {
+	margin-top:35px;
+	/*margin-right:20px;*/
+	width:55px;
+	/*float:right; /*Justifies div to the right*/
+}
+#content-social-text p{
+	height:36.5px; /*Height between icons*/
+}
+
+/* Social Links - content-header-text images
+--------------------------------------------------------------------------------*/
+
+/* Social Links - content-header
+--------------------------------------------------------------------------------*/
+.content-header
+{
+	width: 120px;
+	float:right;
+	margin-top: -27px; /*Change margin top*/
+	margin-right: 30px;
+	margin-bottom: 0px; /*Change margin bottom*/
+	margin-left: auto;
+}
+
+.content-header ul
+{
+    padding: 0; /*Change left-right alignment*/
+    list-style: none;
+    font-size: 8px; /*Change left-right alignment*/
+}
+.content-header li
+{
+    width: 40px; /*Change spacing between icons*/
+    text-align: center;
+	float:left; /*This horizantally stacks the list*/
+}
+.content-header li span
+{
+    display: block;
+}
+.content-header a
+{
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    -moz-transition: .3s;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+}
+.content-header ul:hover a
+{
+    color: rgba(255, 255, 255, 0.6);
+}
+.content-header ul:hover a:hover
+{
+    color: #ffffff;
+}
+.content-header li:nth-child(1) i
+{
+    background: rgb(59, 89, 152);
+    box-shadow: 0 0 0 0 rgba(59, 89, 152,0.6);
+}
+.content-header li:nth-child(2) i
+{
+    background: rgb(0, 172, 238);
+    box-shadow: 0 0 0 0 rgba(0, 172, 238, 0.6);
+}
+.content-header li:nth-child(3) i
+{
+    background: rgb(210, 64, 46);
+    box-shadow: 0 0 0 0 rgba(210, 64, 46,0.6);
+}
+.content-header i
+{
+    position: relative;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 6px; /*Change circle of icon size*/
+    border-radius: 50%; /*Change from square (0%) to circle (100%)*/
+    font-size: 20px; /*Change icon size (both)*/
+    transition: box-shadow .4s ease-in-out;
+    -moz-transition: box-shadow .4s ease-in-out;
+    -webkit-transition: box-shadow .4s ease-in-out;
+    -o-transition: box-shadow .4s ease-in-out;
+}
+.content-header a:hover i, .content-header a:active i
+{
+    box-shadow: 0 0 0 25px transparent;
+}
+/* ICOMOON Starts Here */
+
+@font-face {
+	font-family: 'icomoon';
+	src:url('fonts/icomoon.eot');
+	src:url('fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+		url('fonts/icomoon.woff') format('woff'),
+		url('fonts/icomoon.ttf') format('truetype'),
+		url('fonts/icomoon.svg#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'icomoon';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="icon-"] {
+*/
+.icon-mail, .icon-facebook, .icon-twitter {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+.icon-mail:before {
+	content: "\e000";
+}
+.icon-facebook:before {
+	content: "\e001";
+}
+.icon-twitter:before {
+	content: "\e002";
+}
+
+
+
+/* Social Links - content-header
+--------------------------------------------------------------------------------*/
+
+
+
+/* Social Links - content-social
+--------------------------------------------------------------------------------*/
+.content-social
+{
+	width: 100%;
+	margin-top: -20px; /*Change margin top*/
+	margin-right: auto;
+	margin-bottom: 10px; /*Change margin bottom*/
+	margin-left: auto;
+}
+
+.content-social ul
+{
+	padding-left: 10px; /*Change left-right alignment*/
+	margin-left:10%;
+    list-style: none;
+    font-size: 15px; /*Change spacing between icons*/
+}
+.content-social li
+{
+    width: 60px; /*Change left-right alignment*/
+	height:50px; /*Change spacing between icons*/
+    text-align: center;
+	/*float:left; This horizantally stacks the list*/
+}
+.content-social li span
+{
+    display: block;
+}
+.content-social a
+{
+    display:block;
+    color: #ffffff;
+    text-decoration: none;
+    -moz-transition: .3s;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+}
+.content-social ul:hover a
+{
+    color: rgba(255, 255, 255, 0.6);
+}
+.content-social ul:hover a:hover
+{
+    color: #ffffff;
+}
+.content-social li:nth-child(1) i
+{
+    background: rgb(210, 64, 46);
+    box-shadow: 0 0 0 0 rgba(210, 64, 46,0.6);
+}
+.content-social li:nth-child(2) i
+{
+    background: rgb(59, 89, 152);
+    box-shadow: 0 0 0 0 rgba(59, 89, 152,0.6);
+}
+.content-social li:nth-child(3) i
+{
+    background: rgb(0, 172, 238);
+    box-shadow: 0 0 0 0 rgba(0, 172, 238, 0.6);
+}
+.content-social i
+{
+    position: relative;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 8px; /*Change icon size*/
+    border-radius: 50%; /*Change from square (0%) to circle (100%)*/
+    font-size: 25px; /*Change icon size*/
+    transition: box-shadow .4s ease-in-out;
+    -moz-transition: box-shadow .4s ease-in-out;
+    -webkit-transition: box-shadow .4s ease-in-out;
+    -o-transition: box-shadow .4s ease-in-out;
+}
+.content-social a:hover i, .content-social a:active i
+{
+    box-shadow: 0 0 0 25px transparent;
+}
+/* ICOMOON Starts Here */
+
+@font-face {
+	font-family: 'icomoon';
+	src:url('fonts/icomoon.eot');
+	src:url('fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+		url('fonts/icomoon.woff') format('woff'),
+		url('fonts/icomoon.ttf') format('truetype'),
+		url('fonts/icomoon.svg#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'icomoon';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="icon-"] {
+*/
+.icon-mail, .icon-facebook, .icon-twitter {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+.icon-mail:before {
+	content: "\e000";
+}
+.icon-facebook:before {
+	content: "\e001";
+}
+.icon-twitter:before {
+	content: "\e002";
+}
+/* Social Links - content-social
+--------------------------------------------------------------------------------*/
+
+#footer {
+	overflow:auto;
+	margin-left:24px;
+}
+
+
+/* Device specific styling */
+
+/* Mobile Layout: 0px to 480px. SPECIFIC TO MOBILE */
+@media only screen and (max-width: 480px) {
+#header-search {
+	width250px;
+	margin-top-10%;
+	margin-top-120px;
+	floatright;
+}
+.navbar {
+	margin-top:7px; /*Change height of navbar & main content*/
+	margin-bottom:-1px;
+	float:right;
+	margin-left:5%;
+	margin-right:7%;
+	vertical-align:middle;
+}
+.content-icons {
+	margin-left:17%;
+}
+#content-about {
+	overflow:auto;
+	margin-left:24px;
+	width:89%;
+}
+#sidebar-all {
+	display:none;
+}
+/* Slideshow */
+.container-flexslider {
+	width: 90%;
+	margin-left:5%;
+	float:left;
+	margin-top:-10px;
+}
+#twitter-feed {
+	display:none;
+}
+#content-social-text {
+	display:none;
+}
+#content-sidebar-loop {
+	display:none;
+}
+
+
+#footer {
+	width:88%;
+}
+}
+/* Tablet Layout: 481px to 768px. DOESN'T INHERIT STYLES. */
+@media only screen and (min-width: 481px) {
+#header-logo {
+	margin-top:5px;
+}
+#header-search {
+	width250px;
+	margin-top-10%;
+	margin-top-120px;
+	floatright;
+}
+.navbar {
+	margin-top:7px; /*Change height of navbar & main content*/
+	margin-right:30px;
+	margin-bottom:-1px;
+	float:left;
+	margin-left:30px;
+	vertical-align:middle;
+}
+/* Slideshow */
+.container-flexslider {
+	width: 92%;
+	margin-left:4%;
+	float:left;
+	margin-top:-10px;
+}
+.content-icons {
+	margin-left:5%;
+	width:90%;
+}
+#content-about {
+	overflow:auto;
+	margin-left:24px;
+	width:90%;
+}
+#sidebar-all {
+	display:none;
+}
+#twitter-feed {
+	display:none;
+}
+#content-social-text {
+	display:none;
+}
+#content-sidebar-loop {
+	display:none;
+}
+#footer {
+	width:91%;
+}
+}
+
+/* Tablet Layout (LARGER): DOESN'T INHERIT STYLES. */
+@media only screen and (min-width: 800px) {
+.navbar {
+	margin-top:-36px; /*Change height of navbar & main content*/
+	float:right;
+	margin-right:21%;
+	vertical-align:middle;
+}
+}
+/* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Tablet Layout ONLY. */
+@media only screen and (min-width:1080px) {
+#header-logo {
+	margin-top:10px;
+}
+#header-logo:hover {
+	background-image: url(images/header-logo-hover.png);
+	background-repeat:no-repeat;
+}
+#header-search {
+	width:250px;
+	margin-top-10%;
+	margin-top:-120px;
+	float:right;
+}
+.navbar {
+	margin-top:-36px; /*Change height of navbar & main content*/
+	float:right;
+	margin-right:21%;
+	vertical-align:middle;
+}
+/* Slideshow */
+.container-flexslider {
+	width: 96.5%;
+	margin-left:1.75%;
+	float:left;
+	margin-top:-10px;
+}
+#sidebar {
+	display:block;
+	margin-left:-1%;
+}
+#sidebar-all {
+	display:block;
+}
+.content-icons {
+	margin-left:-2%;
+	width:100%;
+}
+#content-about {
+	overflow:auto;
+	margin-left:24px;
+	width:71%;
+}
+#twitter-feed {
+	display:block;
+	padding-left:3px;
+	padding-bottom:20px;
+	margin-top:125px;
+	margin-left:12px;
+	border-style:solid;
+	border-color:#37adec;
+	border-radius:15px;
+	border-width:3.5px;
+}
+#content-social-text {
+	display:block;
+	margin-top:-7px;
+	margin-right:78px;
+	float:right;
+}
+#content-sidebar-loop {
+	display:block;
+}
+.content-header {
+	display:none;
+}
+.content-all {
+	border:solid;
+}
+#content-teamkit {
+	vertical-align:middle;
+}
+#footer {
+	width:95%;
+}
+}
